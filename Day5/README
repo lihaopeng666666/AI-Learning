@@ -1,0 +1,15 @@
+# Day5 EDA 探索性数据分析
+
+## 内容
+- 强度分布直方图
+- 龄期与强度箱线图、散点图
+- 相关性热力图
+- 龄期与强度的关系
+
+## 运行 python eda.py
+
+## 输出
+strength_dist.png
+age_strength_box.png
+age_strength_scatter.png
+correlation_heatmap.png

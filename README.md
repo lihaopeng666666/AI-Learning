@@ -10,6 +10,8 @@ python stats.py
 总行数: 5
 平均强度: 35.92
 各龄期数量: {'7': 3, '28': 2}
+
+
 # Day3 Git分支与pandas入门
 
 ## 内容
@@ -22,6 +24,8 @@ python pandas_stats.py
 
 ## 结果
 输出总行数、平均强度、最高/最低强度、各龄期平均强度，并保存 result.csv
+
+
 # Day4 数据清洗
 
 ## 内容
@@ -31,6 +35,8 @@ python pandas_stats.py
 
 ## 运行
 python clean_data.py
+
+
 # Day5 EDA 探索性数据分析
 
 ## 内容
@@ -43,7 +49,23 @@ python clean_data.py
 python eda.py
 
 ## 输出
-strength_dist.png
-age_strength_box.png
-age_strength_scatter.png
+strength_dist.png、
+age_strength_box.png、
+age_strength_scatter.png、
 correlation_heatmap.png
+
+
+# Day6 线性回归预测混凝土强度
+
+## 内容
+- 训练/测试集划分
+- 线性回归模型训练预测
+- MAE,RMSE,R2评估
+- 可视化回归线，保存模型
+
+## 运行
+python linear_regression.py
+
+## 输出
+linear_regression.png
+linear_model.pkl

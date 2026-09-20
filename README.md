@@ -100,7 +100,7 @@ multi_linear_model.pkl
 - 最佳模型保存
 
 ## 运行
-python model_comparision.py
+python model_comparision.py、
 python tune_model.py
 
 ## 结束

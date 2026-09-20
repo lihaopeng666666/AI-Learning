@@ -89,3 +89,19 @@ python mutlti_feature_regression.py
 pred_vs_true.png、
 multi_feature_regression.png、
 multi_linear_model.pkl
+
+# Day8 模型对比与调参
+
+## 内容
+- 线性回归 / Ridge / 随机森林 / XGboost 对比
+- 5折交叉验证
+- XGBoost网格搜索调参
+- 特征重要性分析
+- 最佳模型保存
+
+## 运行
+python model_comparision.py
+python tune_model.py
+
+## 结束
+线性回归 R² 约 0.6，XGBoost 调参后 R² 约 0.9+

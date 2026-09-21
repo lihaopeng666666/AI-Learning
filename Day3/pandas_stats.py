@@ -1,7 +1,7 @@
 import pandas as pd
 
 def main():
-    df = pd.read_csv("concrete.csv", encoding="utf-8-sig")
+    df = pd.read_csv("concrete.csv", encoding="utf-8")
 
     print("总行数:", len(df))
     print("平均强度:", df["强度"].mean())
@@ -9,9 +9,9 @@ def main():
     print("最低强度:", df["强度"].min())
 
     print("各龄期平均强度:")
-    print(df.groupby("龄期")["强度"].mean())
+    print(df.groupby("龄期")["强度"].mean()) # 按龄期分组再计算
 
-    df_sorted = df.sort_values("强度", ascending=False)
+    df_sorted = df.sort_values("强度", ascending=False) # 强度从高到低
     df_sorted.to_csv("result.csv", index=False)
     print("已保存 result.csv")
 

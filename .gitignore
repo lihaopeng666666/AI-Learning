@@ -1,0 +1,21 @@
+# Python (基础缓存与虚拟环境)
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# 模型 & 数据（大文件不入库）
+*.pkl
+*.h5
+*.pt
+*.joblib
+*.xls
+*.xlsx
+*.csv
+
+# IDE
+.vscode/
+.idea/
+.DS_Store

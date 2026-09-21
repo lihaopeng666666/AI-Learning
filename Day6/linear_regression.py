@@ -49,3 +49,7 @@ plt.legend()
 plt.tight_layout()
 plt.savefig("linear_regression.png")
 plt.show()
+
+# 保存模型
+joblib.dump(model, "linear_model.pkl")
+print("\n模型已保存为 linear_model.pkl")

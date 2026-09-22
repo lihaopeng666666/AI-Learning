@@ -5,7 +5,7 @@
 预测混凝土 28 天抗压强度。完成数据清洗、EDA、特征工程、多模型对比、
 超参数调优与 SHAP 可解释性分析，并部署为 Streamlit 交互式 Web 应用。
 
-> 在线体验：[点击访问 Demo](https://your-app.streamlit.app)  <!-- ⚠️ 替换成你部署后的链接，还没部署可以先删掉这行 -->
+> 在线体验：[点击访问 Demo](https://ai-learning-concrete-prediction.streamlit.app/)  
 
 ## 技术栈
 - 语言/工具：Python 3.10+, Git, Jupyter

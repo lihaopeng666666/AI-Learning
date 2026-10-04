@@ -86,7 +86,7 @@ retriever, all_chunks = load_retriever()
 @st.cache_resource
 def load_llm():
     return OpenAI(
-        api_key=st.secretsp["ALIYUN_BAILIAN_API_KEY"],
+        api_key=st.secrets["ALIYUN_BAILIAN_API_KEY"],
         base_url="https://ws-it60fjx06fvy8l40.cn-beijing.maas.aliyuncs.com/compatible-mode/v1"
     )
 

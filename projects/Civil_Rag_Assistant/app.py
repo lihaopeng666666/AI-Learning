@@ -54,7 +54,7 @@ def load_retriever():
 
     # 向量
     embeddings = HuggingFaceEmbeddings(
-        model_name=os.path.join(BASE_DIR, "bge-base-zh-v1.5"),
+        model_name="BAAI/bge-base-zh-v1.5",
         model_kwargs={"device": "cpu"},
         # encode_kwargs={"normalize_embeddings": True}
     )

@@ -1,0 +1,12 @@
+streamlit
+openai
+python-dotenv
+langchain-community
+langchain-chroma
+langchain-huggingface
+langchain-classic
+chromadb
+sentence-transformers
+rank_bm25
+jieba
+pypdf
